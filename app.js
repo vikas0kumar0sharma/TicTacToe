@@ -66,7 +66,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[0][0]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -108,7 +108,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[0][1]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -152,7 +152,7 @@ if(flg==1){
   whichturn.innerHTML=arr[0][2]+" Won the Game"
   document.getElementById("ora").innerText=""
   found=1
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
 }
 else{
   playAudio('ting.mp3')
@@ -192,7 +192,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[1][0]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -234,7 +234,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[1][1]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -276,7 +276,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[1][2]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -318,7 +318,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[2][0]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }else{
@@ -359,7 +359,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[2][1]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
@@ -401,7 +401,7 @@ if(arr[0][2]==arr[1][1] && arr[1][1]==arr[2][0] && arr[0][2]!="") flg=1
 if(flg==1){
   img.style.visibility='visible'
   whichturn.innerHTML=arr[2][2]+" Won the Game"
-  playAudio('gameover.mp3')
+  playAudio('Spiderman.mp3')
   document.getElementById("ora").innerText=""
   found=1
 }
